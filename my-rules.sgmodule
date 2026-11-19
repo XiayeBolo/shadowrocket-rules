@@ -1,0 +1,17 @@
+#!name=我的个人规则
+#!desc=配合 lazy_group.conf 使用
+
+[Rule]
+
+# 以下两个网站走代理
+DOMAIN-SUFFIX,potoh.com,PROXY
+DOMAIN-SUFFIX,lyxazy.cn,PROXY
+
+# 域名包含 adobe 的连接，拒绝
+DOMAIN-KEYWORD,adobe,REJECT
+
+# 直连示例：把 example.com 换成需要直连的网站
+DOMAIN-SUFFIX,example.com,DIRECT
+
+# 精确拦截示例：把域名换成需要拦截的域名
+DOMAIN,ads.example.net,REJECT
