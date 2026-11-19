@@ -3,7 +3,11 @@
 
 [Rule]
 
-# 以下两个网站走代理
+# 加密货币：使用 V 台湾 01 节点
+RULE-SET,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/binance.list,🇹🇼 V台湾 01
+RULE-SET,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/bybit.list,🇹🇼 V台湾 01
+
+# 以下两个网站走默认代理
 DOMAIN-SUFFIX,potoh.com,PROXY
 DOMAIN-SUFFIX,lyxazy.cn,PROXY
 
