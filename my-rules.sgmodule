@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,ultra.me,vless-S5-ATT
 # 关键词匹配，拒绝
 DOMAIN-KEYWORD,adobe,REJECT
 
-# 关键词匹配,连接
+# 关键词匹配，连接
 DOMAIN-KEYWORD,ultramobile,vless-S5-ATT
 
 # 直连示例：把 example.com 换成需要直连的网站
